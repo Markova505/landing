@@ -55,15 +55,39 @@
 }
 
 .cards-section {
-    padding: 50p 0;
+    padding: 50p 0px;
 
 }
 
 .card {
     padding: 25px;
     margin-top: 25px;
-    width: 25px;
+    width: 100%;
     background: white;
     box-shadow: 0px 2px 7px 0px #9e90ff;
     text-align: center;
+}
+
+.cards {
+    display: inline-block;
+    width: 250px;
+    margin: 0px 45px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-buttom {
+    text-align: center;
+    background: #151c39;
+    border-radius: 10px;
+}
+
+.footer {
+    background: url(фон.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+
 }
